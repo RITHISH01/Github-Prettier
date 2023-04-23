@@ -19,12 +19,10 @@ function App() {
     }
 
     // posX is the X position variable we'll update
-    let posX
-    = startX;
+    let posX = startX;
 
     // array for storing the keyframes
-    let keyframes
-    = [];
+    let keyframes = [];
 
     // we're going to push a transform into the keyframes array for each bounce
     for (let i = 1; i <= bounce; i++) {
