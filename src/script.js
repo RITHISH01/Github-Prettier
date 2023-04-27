@@ -7,8 +7,7 @@ export function getAboutUsLink(language) {
   }
   return "";
 }
-export function
-getAboutUsLink(language) {
+export function getAboutUsLink(language) {
   switch (language.toLowerCase()) {
     case englishCode.toLowerCase():
       return "/about-us";
@@ -18,8 +17,7 @@ getAboutUsLink(language) {
   return "";
 }
 export function getAboutUsLink(language) {
-  switch (language.toLowerCase()) 
-  {
+  switch (language.toLowerCase()) {
     case englishCode.toLowerCase():
       return "/about-us";
     case spanishCode.toLowerCase():
