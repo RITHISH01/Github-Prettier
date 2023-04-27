@@ -31,10 +31,12 @@ function App() {
       if (i === 1 || i === bounce) {
         // if we're on the right side we need to do an additional translate to account for the size of the shape div
         translateX =
-          startX === "right"
+          startX === 
+          "right"
             ? `translateX(${posStartX}vw)translateX(-180px)`
             : `translateX(${posStartX}vw)`;
-        translateY = `translateY(${startY}px)`;
+        translateY = 
+          `translateY(${startY}px)`;
       } else {
         // if we're on the right side we need to do an additional translate to account for the size of the shape div
         translateX =
