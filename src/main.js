@@ -9,13 +9,15 @@ function App() {
   var pentagon = document.getElementById("pentagon");
 
   // animate function
-  function animate(elem, startX, startY, bounce, duration) {
+  function 
+  animate(elem, startX, startY, bounce, duration) {
     // set and store the start positions (they'll need to be the same for the end position too)let posStartX;
 
     if (startX === "left") {
       posStartX = 0;
     } else {
-      posStartX = 100;
+      posStartX 
+        = 100;
     }
 
     // posX is the X position variable we'll update
