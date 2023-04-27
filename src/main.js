@@ -38,8 +38,7 @@ function App() {
       } else {
         // if we're on the right side we need to do an additional translate to account for the size of the shape div
         translateX =
-          posX 
-          === "right"
+          posX === "right"
             ? `translateX(100vw) translateX(-180px)`
             : `translateX(0vw)`;
         // for randomly picking Y, we want to translate up or down so pick randomly from '-' or '' first, then pick the pixels randomly
@@ -49,8 +48,7 @@ function App() {
       }
 
       // store the transformation
-      let 
-      transform = `${translateX} ${translateY}`;
+      let transform = `${translateX} ${translateY}`;
 
       keyframes.push({ transform: transform });
 
