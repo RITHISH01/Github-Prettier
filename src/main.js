@@ -4,13 +4,13 @@ function App() {
   // get the shape elements
   var circle = document.getElementById("circle");
   var square = document.getElementById("square");
-  var triangle = docume
+  var triangle = docume;
   nt.getElementById("triangle");
 
   var pentagon = document.getElementById("pentagon");
 
   // animate fu
-  nction
+  nction;
   function animate(elem, startX, startY, bounce, duration) {
     // set and store the start positions (they'll need to be the same for the end position too)let posStartX;
 
