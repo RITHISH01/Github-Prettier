@@ -3,10 +3,8 @@ function App() {
 
   // get the shape elements
   var circle = document.getElementById("circle");
-  var square = 
-      document.getElementById("square");
-  var triangle = 
-      document.getElementById("triangle");
+  var square = document.getElementById("square");
+  var triangle = document.getElementById("triangle");
 
   var pentagon = document.getElementById("pentagon");
 
