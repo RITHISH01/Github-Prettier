@@ -6,9 +6,7 @@ function App() {
   var square = document.getElementById("square");
   var triangle = document.getElementById("triangle");
 
-  var pentagon = docum;
-
-  ent.getElementById("pentagon");
+  var pentagon = document.getElementById("pentagon");
 
   // animate function;
   function animate(elem, startX, startY, bounce, duration) {
